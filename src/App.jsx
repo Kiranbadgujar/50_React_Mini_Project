@@ -7,6 +7,8 @@ import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator"
+import Typewriter from "./components/typewrite-effect"
+import StickyFullPageSlide from "./components/Sticky fullpage pages slides"
 
 
 function App() {
@@ -16,11 +18,11 @@ function App() {
       <Accordian />
 
       {/* ImageSlider component */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"5"}
-      />
+      /> */}
 
       {/* LoadMoreData component */}
       <LoadMoreData />
@@ -36,6 +38,12 @@ function App() {
 
       {/* QRCodeGenerator component */}
       <QRCodeGenerator />
+
+      {/* Typewriter Effect */}
+      <Typewriter />
+
+      {/* StickyFullPageSlide component */}
+      <StickyFullPageSlide />
 
     </div>
   );
